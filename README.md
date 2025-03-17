@@ -37,6 +37,19 @@ DNAC_PORT=os.getenv("DNAC_PORT") or 8080
 DNAC_PASSWORD= os.getenv("DNAC_PASSWORD") or "Cisco123!"
 ```
 
+## trigger_pre_check.py
+This script will trigger a pre-check on a given device.
+
+### Example
+```
+./trigger_pre_check.py 
+{
+  "taskId": "0195a162-fd1a-7327-8267-163c36363fd3",
+  "url": "/api/v1/task/0195a162-fd1a-7327-8267-163c36363fd3"
+}
+{'response': {'startTime': 1742169373978, 'progress': 'Swim Network Validation Successfully Executed', 'version': 1742169378839, 'endTime': 1742169378839, 'serviceType': 'Swim Service', 'isError': False, 'instanceTenantId': '5d817bf369136f00c74cb23b', 'id': '0195a162-fd1a-7327-8267-163c36363fd3'}, 'version': '1.0'}
+
+```
 ## dump_pre_check.py
 This script will dump the readiness checks for a device.  It takes a device UUID.
 
