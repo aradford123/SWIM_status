@@ -44,10 +44,23 @@ This script will trigger a pre-check on a given device.
 ```
 ./trigger_pre_check.py 
 {
-  "taskId": "0195a162-fd1a-7327-8267-163c36363fd3",
-  "url": "/api/v1/task/0195a162-fd1a-7327-8267-163c36363fd3"
+  "taskId": "0195a168-fdea-7737-838f-d948efa0ec7f",
+  "url": "/api/v1/task/0195a168-fdea-7737-838f-d948efa0ec7f"
 }
-{'response': {'startTime': 1742169373978, 'progress': 'Swim Network Validation Successfully Executed', 'version': 1742169378839, 'endTime': 1742169378839, 'serviceType': 'Swim Service', 'isError': False, 'instanceTenantId': '5d817bf369136f00c74cb23b', 'id': '0195a162-fd1a-7327-8267-163c36363fd3'}, 'version': '1.0'}
+{
+  "response": {
+    "startTime": 1742169767402,
+    "progress": "Swim Network Validation Successfully Executed",
+    "version": 1742169772256,
+    "endTime": 1742169772256,
+    "serviceType": "Swim Service",
+    "isError": false,
+    "instanceTenantId": "5d817bf369136f00c74cb23b",
+    "id": "0195a168-fdea-7737-838f-d948efa0ec7f"
+  },
+  "version": "1.0"
+}
+
 
 ```
 ## dump_pre_check.py
