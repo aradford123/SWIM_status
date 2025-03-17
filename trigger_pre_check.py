@@ -53,7 +53,7 @@ def main(dnac,deviceid):
     taskid = details.response.taskId
     result = wait_for_task(dnac,taskid)
     
-    print(result)
+    print(json.dumps(result,indent=2))
 
 
 if __name__ == "__main__":
